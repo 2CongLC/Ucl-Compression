@@ -51,10 +51,15 @@ namespace UnPack
                                        Console.WriteLine("File ID : {0} - File Offset : {1} - File Size : {2} - IsCompress : {3}", fd.id, fd.offset, fd.size, fd.isCompress);
 
                                        br.BaseStream.Position = fd.offset;
+					var byte[] buffer = null;
+					If (fd.IsCompress == 1) || (fd.IsCompress == 32)
+					{
+						buffer = ;
+					}
 
                                        using (BinaryWriter bw = new BinaryWriter(File.Create(p + "//" + fd.id)))
                                        {
-                                           bw.Write(br.ReadBytes(fd.size));
+                                           bw.Write(buffer);
                                        }
                                  }
 
@@ -64,22 +69,22 @@ namespace UnPack
 		} // End Main
 
 		public class FileData
-{
-    public int id; // Length = 4
-    public int offset; // Length = 4
-    public int size; // Length = 4
-    public byte[] compressed; // Length = 3
-    public byte isCompress; // Length = 1
+                {
+                       public int id; // Length = 4
+                       public int offset; // Length = 4
+                       public int size; // Length = 4
+                       public byte[] compressed; // Length = 3
+                       public byte isCompress; // Length = 1
 
-    public FileData(BinaryReader br)
-    {
-        id = br.ReadInt32();
-        offset = br.ReadInt32();
-        size = br.ReadInt32();
-        compressed = br.ReadBytes(3);
-        isCompress = br.ReadByte();
-    }
-}
+                        public FileData()
+                        {
+                             id = br.ReadInt32();
+                              offset = br.ReadInt32();
+                              size = br.ReadInt32();
+                              compressed = br.ReadBytes(3);
+                              isCompress = br.ReadByte();
+                         }
+                     }
 
 	} // End Class
 } // End NameSpace

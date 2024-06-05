@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6F8E4077-B089-4272-A827-521311E60939}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpTest</RootNamespace>
-    <AssemblyName>CSharpTest</AssemblyName>
+    <RootNamespace>UnPack</RootNamespace>
+    <AssemblyName>UnPack</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -1,0 +1,2 @@
+C:\Users\Administrator\Downloads\UclCli-master\UclCli-master\Debug\ucl.dll
+C:\Users\Administrator\Downloads\UclCli-master\UclCli-master\UclCli\Debug\UclCli.vcxproj.AssemblyReference.cache

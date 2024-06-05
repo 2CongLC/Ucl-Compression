@@ -2,4 +2,4 @@
   .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Generating Code...
   Ucl.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  UclCli.vcxproj -> C:\Users\Administrator\Downloads\UclCli-master\UclCli-master\Debug\ucl.cli.dll
+  UclCli.vcxproj -> D:\Source VBNet_C#\GitHub\Ucl-Compression\Debug\ucl.cli.dll

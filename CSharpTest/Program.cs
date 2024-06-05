@@ -63,5 +63,23 @@ namespace UnPack
 			Console.ReadLine();	
 		} // End Main
 
+		public class FileData
+{
+    public int id; // Length = 4
+    public int offset; // Length = 4
+    public int size; // Length = 4
+    public byte[] compressed; // Length = 3
+    public byte isCompress; // Length = 1
+
+    public FileData(BinaryReader br)
+    {
+        id = br.ReadInt32();
+        offset = br.ReadInt32();
+        size = br.ReadInt32();
+        compressed = br.ReadBytes(3);
+        isCompress = br.ReadByte();
+    }
+}
+
 	} // End Class
 } // End NameSpace

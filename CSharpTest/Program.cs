@@ -52,6 +52,7 @@ namespace UnPack
 
                                        br.BaseStream.Position = fd.offset;
 					var byte[] buffer = null;
+					// 0 : none, 1: ucl, 2: bzip2, 0x10: frame
 					If (fd.IsCompress == 1) || (fd.IsCompress == 32)
 					{
 						buffer = Ucl.NRV2B_Decompress_8(fd.compressed, fd.size);

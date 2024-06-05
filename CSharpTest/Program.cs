@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using UclCompression;
 
-namespace CSharpTest
+namespace UnPack
 {
 	class Program
 	{
@@ -32,16 +32,6 @@ namespace CSharpTest
 
 			Console.ReadLine();
 		}
-
-		// https://stackoverflow.com/a/311179/1171898
-		public static byte[] StringToByteArray(string hex)
-		{
-			var NumberChars = hex.Length;
-			var bytes = new byte[NumberChars / 2];
-			for (var i = 0; i < NumberChars; i += 2)
-				bytes[i / 2] = Convert.ToByte(hex.Substring(i, 2), 16);
-
-			return bytes;
-		}
+ 
 	}
 }

@@ -54,7 +54,7 @@ namespace UnPack
 					var byte[] buffer = null;
 					If (fd.IsCompress == 1) || (fd.IsCompress == 32)
 					{
-						buffer = Ucl.NRV2E_Decompress_8(fd.compressed, fd.size);
+						buffer = Ucl.NRV2B_Decompress_8(fd.compressed, fd.size);
 					}
 
                                        using (BinaryWriter bw = new BinaryWriter(File.Create(p + "//" + fd.id)))

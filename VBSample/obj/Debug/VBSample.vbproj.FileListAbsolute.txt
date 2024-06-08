@@ -13,3 +13,4 @@ D:\Source VBNet_C#\GitHub\Ucl-Compression\VBSample\obj\Debug\VBSample.vbproj.Up2
 D:\Source VBNet_C#\GitHub\Ucl-Compression\VBSample\obj\Debug\VBSample.exe
 D:\Source VBNet_C#\GitHub\Ucl-Compression\VBSample\obj\Debug\VBSample.xml
 D:\Source VBNet_C#\GitHub\Ucl-Compression\VBSample\obj\Debug\VBSample.pdb
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBSample\bin\Debug\VBSample.xml

@@ -46,12 +46,12 @@ Public Class Form1
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
 
-        If OpenFileDialog1.ShowDialog = DialogResult.OK AndAlso SaveFileDialog1.ShowDialog = DialogResult.OK Then
-            Dim buffer As Byte() = Encoding.ASCII.GetBytes("123abc")
-            Dim compressed As Byte() = Ucl.NRV2B_99_Compress(buffer, 10)
-            Dim uncompressed As Byte() = Ucl.NRV2B_99_Compress(compressed, buffer.Length)
+        Dim buffer As Byte() = Encoding.ASCII.GetBytes("123abc")
 
-            MessageBox.Show("Đã xong !")
-        End If
+        Dim compressed As Byte() = Ucl.NRV2B_99_Compress(buffer, 10)
+        Dim uncompressed As Byte() = Ucl.NRV2B_99_Compress(compressed, buffer.Length)
+
+        MessageBox.Show("Đã xong !")
+
     End Sub
 End Class

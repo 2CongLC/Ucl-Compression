@@ -1,0 +1,12 @@
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\bin\Debug\UnPack.exe.config
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\bin\Debug\UnPack.exe
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\bin\Debug\UnPack.pdb
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\bin\Debug\UnPack.xml
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\obj\Debug\VBConsole.vbproj.AssemblyReference.cache
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\obj\Debug\UnPack.Resources.resources
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\obj\Debug\VBConsole.vbproj.GenerateResource.cache
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\obj\Debug\VBConsole.vbproj.CoreCompileInputs.cache
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\obj\Debug\VBConsole.vbproj.Up2Date
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\obj\Debug\UnPack.exe
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\obj\Debug\UnPack.xml
+D:\Source VBNet_C#\GitHub\Ucl-Compression\VBConsole\obj\Debug\UnPack.pdb

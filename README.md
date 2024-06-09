@@ -1,27 +1,25 @@
 # Ucl Compression
  Visual Basic .Net - Ucl Compression ( chỉ hỗ trợ .Netframe Work 4.8 trở xuống )
  * Thư viện dùng để nén và giải nén ucl Compression
- * Cách dùng :
+ * Cách dùng : chú ý đây là kiểu nén 1 chiều, muốn giải nén phải lấy chuỗi Length từ nguồn (target) thì mới giải nén được
 ```vbnet
- If OpenFileDialog1.ShowDialog = DialogResult.OK AndAlso SaveFileDialog1.ShowDialog = DialogResult.OK Then
-     Dim buffer As Byte() = IO.File.ReadAllBytes(OpenFileDialog1.FileName)
-     Dim compressed As Byte() = Ucl.NRV2B_99_Compress(buffer, 10)
-     IO.File.WriteAllBytes(SaveFileDialog1.FileName, compressed)
-     MessageBox.Show("Đã xong !")
- End If
+Sub Main(args As String())
+
+    Dim source As String = "Hello ,i am UCL Compression"
+
+    Dim buffer As Byte() = Encoding.ASCII.GetBytes(source)
+    Console.WriteLine("Data Length : {0}", buffer.Length)
+
+    Dim compressed As Byte() = Ucl.NRV2B_99_Compress(buffer, 10)
+    Console.WriteLine("Compressed Length : {0}", compressed.Length)
+
+    Dim uncompressed As Byte() = Ucl.NRV2B_Decompress_8(compressed, buffer.Length)
+    Console.WriteLine("UnCompressed Length : {0}", uncompressed.Length)
+
+
+    Console.ReadLine()
+End Sub
  ```
- * Hoặc :
- ```vbnet
-  Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
 
-     Dim buffer As Byte() = Encoding.ASCII.GetBytes("123abc")
-
-     Dim compressed As Byte() = Ucl.NRV2B_99_Compress(buffer, 10)
-     Dim uncompressed As Byte() = Ucl.NRV2B_99_Compress(compressed, buffer.Length)
-
-     MessageBox.Show("Đã xong !")
-
- End Sub
- ```
- * Email : 2conglc.vn@gmail.com
- * © 2024
+* Email : 2conglc.vn@gmail.com
+* © 2024

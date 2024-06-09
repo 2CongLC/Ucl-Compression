@@ -30,11 +30,12 @@ Partial Class Form1
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(65, 54)
+        Me.Button1.Location = New System.Drawing.Point(12, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(236, 36)
         Me.Button1.TabIndex = 0
@@ -43,7 +44,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(65, 96)
+        Me.Button2.Location = New System.Drawing.Point(12, 54)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(236, 36)
         Me.Button2.TabIndex = 1
@@ -53,7 +54,7 @@ Partial Class Form1
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(177, 322)
+        Me.LinkLabel1.Location = New System.Drawing.Point(41, 276)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(167, 13)
         Me.LinkLabel1.TabIndex = 3
@@ -62,7 +63,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(65, 138)
+        Me.Button3.Location = New System.Drawing.Point(12, 96)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(236, 36)
         Me.Button3.TabIndex = 4
@@ -71,18 +72,27 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(65, 209)
+        Me.Button4.Location = New System.Drawing.Point(12, 201)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(236, 23)
+        Me.Button4.Size = New System.Drawing.Size(236, 58)
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "Test"
         Me.Button4.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(12, 154)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(226, 20)
+        Me.TextBox1.TabIndex = 6
+        Me.TextBox1.Text = "Hello !!!!"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(539, 437)
+        Me.ClientSize = New System.Drawing.Size(259, 309)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.LinkLabel1)
@@ -105,4 +115,5 @@ Partial Class Form1
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents TextBox1 As TextBox
 End Class

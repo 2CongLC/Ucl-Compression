@@ -3,18 +3,19 @@
   "WorkspaceRootPath": "D:\\Source VBNet_C#\\GitHub\\Ucl-Compression\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE5A400B-58C3-46D8-BAE5-461DB61CD903}|VBSample\\VBSample.vbproj|d:\\source vbnet_c#\\github\\ucl-compression\\vbsample\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{DE5A400B-58C3-46D8-BAE5-461DB61CD903}|VBSample\\VBSample.vbproj|solutionrelative:vbsample\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{CD5D60F3-7E02-412D-8538-8117F72364BC}|VBConsole\\VBConsole.vbproj|d:\\source vbnet_c#\\github\\ucl-compression\\vbconsole\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD5D60F3-7E02-412D-8538-8117F72364BC}|VBConsole\\VBConsole.vbproj|solutionrelative:vbconsole\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE5A400B-58C3-46D8-BAE5-461DB61CD903}|VBSample\\VBSample.vbproj|D:\\Source VBNet_C#\\GitHub\\Ucl-Compression\\vbsample\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{DE5A400B-58C3-46D8-BAE5-461DB61CD903}|VBSample\\VBSample.vbproj|solutionrelative:vbsample\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|VBSample||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{DE5A400B-58C3-46D8-BAE5-461DB61CD903}|VBSample\\VBSample.vbproj|D:\\Source VBNet_C#\\GitHub\\Ucl-Compression\\vbsample\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{DE5A400B-58C3-46D8-BAE5-461DB61CD903}|VBSample\\VBSample.vbproj|solutionrelative:vbsample\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|VBSample||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,21 +25,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAEsJAAAAAAAAAAAswGAJAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-06-08T04:49:42.611Z"
+              "DocumentIndex": 0,
+              "Title": "Module1.vb",
+              "DocumentMoniker": "D:\\Source VBNet_C#\\GitHub\\Ucl-Compression\\VBConsole\\Module1.vb",
+              "RelativeDocumentMoniker": "VBConsole\\Module1.vb",
+              "ToolTip": "D:\\Source VBNet_C#\\GitHub\\Ucl-Compression\\VBConsole\\Module1.vb",
+              "RelativeToolTip": "VBConsole\\Module1.vb",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-09T06:52:43.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "VBSample",
               "DocumentMoniker": "D:\\Source VBNet_C#\\GitHub\\Ucl-Compression\\VBSample\\VBSample.vbproj",
               "RelativeDocumentMoniker": "VBSample\\VBSample.vbproj",
@@ -49,16 +53,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.vb",
               "DocumentMoniker": "D:\\Source VBNet_C#\\GitHub\\Ucl-Compression\\VBSample\\Form1.vb",
               "RelativeDocumentMoniker": "VBSample\\Form1.vb",
               "ToolTip": "D:\\Source VBNet_C#\\GitHub\\Ucl-Compression\\VBSample\\Form1.vb",
               "RelativeToolTip": "VBSample\\Form1.vb",
-              "ViewState": "AQIAAB0AAAAAAAAAAADwvyAAAAAOAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-08T04:30:18.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T04:30:18.09Z"
             },
             {
               "$type": "Document",
@@ -69,8 +72,7 @@
               "ToolTip": "D:\\Source VBNet_C#\\GitHub\\Ucl-Compression\\VBSample\\Form1.vb [Design]",
               "RelativeToolTip": "VBSample\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-08T04:29:58.058Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-08T04:29:58.058Z"
             }
           ]
         }

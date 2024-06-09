@@ -46,7 +46,7 @@ Public Class Form1
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
 
-        Dim buffer As Byte() = Encoding.ASCII.GetBytes("123abc")
+        Dim buffer As Byte() = Encoding.ASCII.GetBytes(TextBox1.Text)
 
         Dim compressed As Byte() = Ucl.NRV2B_99_Compress(buffer, 10)
         Dim uncompressed As Byte() = Ucl.NRV2B_Decompress_8(compressed, buffer.Length)

@@ -19,7 +19,8 @@ Public Class Form1
         If OpenFileDialog1.ShowDialog = DialogResult.OK AndAlso SaveFileDialog1.ShowDialog = DialogResult.OK Then
             Dim buffer As Byte() = IO.File.ReadAllBytes(OpenFileDialog1.FileName)
             Dim compressed As Byte() = Ucl.NRV2B_99_Compress(buffer, 10)
-            IO.File.WriteAllBytes(SaveFileDialog1.FileName, compressed)
+            Dim bufferSize As Int32 = buffer.Length
+            IO.File.WriteAllBytes(SaveFileDialog1.FileName & "-" & bufferSize, compressed)
             MessageBox.Show("Đã xong !")
         End If
     End Sub
@@ -28,7 +29,8 @@ Public Class Form1
         If OpenFileDialog1.ShowDialog = DialogResult.OK AndAlso SaveFileDialog1.ShowDialog = DialogResult.OK Then
             Dim buffer As Byte() = IO.File.ReadAllBytes(OpenFileDialog1.FileName)
             Dim compressed As Byte() = Ucl.NRV2D_99_Compress(buffer, 10)
-            IO.File.WriteAllBytes(SaveFileDialog1.FileName, compressed)
+            Dim bufferSize As Int32 = buffer.Length
+            IO.File.WriteAllBytes(SaveFileDialog1.FileName & "-" & bufferSize, compressed)
             MessageBox.Show("Đã xong !")
         End If
     End Sub
@@ -39,7 +41,8 @@ Public Class Form1
         If OpenFileDialog1.ShowDialog = DialogResult.OK AndAlso SaveFileDialog1.ShowDialog = DialogResult.OK Then
             Dim buffer As Byte() = IO.File.ReadAllBytes(OpenFileDialog1.FileName)
             Dim compressed As Byte() = Ucl.NRV2E_99_Compress(buffer, 10)
-            IO.File.WriteAllBytes(SaveFileDialog1.FileName, compressed)
+            Dim bufferSize As Int32 = buffer.Length
+            IO.File.WriteAllBytes(SaveFileDialog1.FileName & "-" & bufferSize, compressed)
             MessageBox.Show("Đã xong !")
         End If
     End Sub
@@ -53,5 +56,17 @@ Public Class Form1
 
         MessageBox.Show("Đã xong !")
 
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+
+        If OpenFileDialog1.ShowDialog = DialogResult.OK AndAlso SaveFileDialog1.ShowDialog = DialogResult.OK Then
+            Dim buffer As Byte() = IO.File.ReadAllBytes(OpenFileDialog1.FileName)
+            Dim unsize As String = OpenFileDialog1.FileName.Split("-").Last
+            Dim compressed As Byte() = Ucl.NRV2B_Decompress_8(buffer, unsize)
+            Dim bufferSize As Int32 = buffer.Length
+            IO.File.WriteAllBytes(SaveFileDialog1.FileName & "-" & bufferSize, compressed)
+            MessageBox.Show("Đã xong !")
+        End If
     End Sub
 End Class

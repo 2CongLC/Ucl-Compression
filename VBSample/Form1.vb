@@ -49,7 +49,7 @@ Public Class Form1
         Dim buffer As Byte() = Encoding.ASCII.GetBytes("123abc")
 
         Dim compressed As Byte() = Ucl.NRV2B_99_Compress(buffer, 10)
-        Dim uncompressed As Byte() = Ucl.NRV2B_99_Compress(compressed, buffer.Length)
+        Dim uncompressed As Byte() = Ucl.NRV2B_Decompress_8(compressed, buffer.Length)
 
         MessageBox.Show("Đã xong !")
 

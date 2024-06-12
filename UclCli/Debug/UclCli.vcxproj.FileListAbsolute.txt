@@ -2,3 +2,4 @@ C:\Users\Administrator\Downloads\UclCli-master\UclCli-master\Debug\ucl.dll
 C:\Users\Administrator\Downloads\UclCli-master\UclCli-master\UclCli\Debug\UclCli.vcxproj.AssemblyReference.cache
 D:\Source VBNet_C#\GitHub\Ucl-Compression\Debug\ucl.dll
 D:\Source VBNet_C#\GitHub\Ucl-Compression\UclCli\Debug\UclCli.vcxproj.AssemblyReference.cache
+D:\Source VBNet_C#\GitHub\Ucl-Compression\UclCli\Debug\UclCli.vcxproj.Up2Date

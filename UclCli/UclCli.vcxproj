@@ -78,6 +78,7 @@
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);include\;</IncludePath>
     <TargetName>ucl.netx86</TargetName>
     <TargetExt>.dll</TargetExt>
+    <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);include\;</IncludePath>
